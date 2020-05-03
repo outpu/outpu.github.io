@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>个人vps上搭建hexo | 奥普</title>
+    <title>个人vps上搭建hexo | 遨扑</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/outpu/outpu.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/outpu/outpu.github.io/libs/awesome/css/all.css">
@@ -29,9 +29,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/outpu/outpu.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="奥普" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><link rel="alternate" href="/atom.xml" title="遨扑" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -43,7 +43,7 @@
                     
                     <img src="https://cdn.jsdelivr.net/gh/outpu/outpu.github.io/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">奥普</span>
+                    <span class="logo-span">遨扑</span>
                 </a>
             </div>
             
@@ -142,7 +142,7 @@
         
         <img src="https://cdn.jsdelivr.net/gh/outpu/outpu.github.io/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">奥普</div>
+        <div class="logo-name">遨扑</div>
         <div class="logo-desc">
             
             outpu.com
@@ -382,8 +382,20 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/%E5%AE%9D%E5%A1%94/">
+                                <span class="chip bg-color">宝塔</span>
+                            </a>
+                        
                             <a href="/tags/hexo/">
                                 <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                            <a href="/tags/VPS/">
+                                <span class="chip bg-color">VPS</span>
+                            </a>
+                        
+                            <a href="/tags/Git/">
+                                <span class="chip bg-color">Git</span>
                             </a>
                         
                     </div>
@@ -505,7 +517,7 @@ systemctl restart sshd.service</code></pre><p>查看是否修改成功</p>
 <p><code>Number of key(s) added: 1</code></p>
 <p><code>Now try logging into the machine, with:   "ssh 'git@你的服务器IP'"</code><br><code>and check to make sure that only the key(s) you wanted were added.</code></p>
 <p>key添加成功！</p>
-<pre><code>ssh git@104.224.183.198 #测试能否登录</code></pre><p><code>Last login: Mon Apr 27 21:55:36 2020</code><br><code>[git@alternative-kittens-1 ~]$</code></p>
+<pre><code>ssh git@你的服务器IP #测试能否登录</code></pre><p><code>Last login: Mon Apr 27 21:55:36 2020</code><br><code>[git@alternative-kittens-1 ~]$</code></p>
 <p>​    9、为了安全起见禁用<code>git</code>用户的 <code>shell</code> 登录权限，从而只能用<code>git clone,git push</code>等登录，执行如下命令：</p>
 <pre><code>cat /etc/shells #查看`git-shell`是否在登录方式里面，有则跳过
 which git-shell #查看是否安装
@@ -604,8 +616,20 @@ vi /etc/shells</code></pre><p>添加上2步显示出来的路劲，通常在 <co
                     
                         <div class="article-tag">
                             
+                                <a href="/tags/%E5%AE%9D%E5%A1%94/">
+                                    <span class="chip bg-color">宝塔</span>
+                                </a>
+                            
                                 <a href="/tags/hexo/">
                                     <span class="chip bg-color">hexo</span>
+                                </a>
+                            
+                                <a href="/tags/VPS/">
+                                    <span class="chip bg-color">VPS</span>
+                                </a>
+                            
+                                <a href="/tags/Git/">
+                                    <span class="chip bg-color">Git</span>
                                 </a>
                             
                         </div>
@@ -1077,8 +1101,20 @@ vi /etc/shells</code></pre><p>添加上2步显示出来的路劲，通常在 <co
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/%E5%AE%9D%E5%A1%94/">
+                        <span class="chip bg-color">宝塔</span>
+                    </a>
+                    
                     <a href="/tags/hexo/">
                         <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/VPS/">
+                        <span class="chip bg-color">VPS</span>
+                    </a>
+                    
+                    <a href="/tags/Git/">
+                        <span class="chip bg-color">Git</span>
                     </a>
                     
                 </div>
@@ -1168,7 +1204,7 @@ vi /etc/shells</code></pre><p>添加上2步显示出来的路劲，通常在 <co
 
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
-            + '来源: 奥普<br />'
+            + '来源: 遨扑<br />'
             + '文章作者: OutPu<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
             + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
